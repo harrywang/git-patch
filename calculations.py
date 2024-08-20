@@ -4,7 +4,7 @@ class Calculations:
         self.b = b
 
     def get_sum(self):
-        return self.a + self.b + 1
+        return self.a + self.b
 
     def get_difference(self):
         return self.a - self.b
