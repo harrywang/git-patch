@@ -1,0 +1,25 @@
+From d1a15a652860c4e0fbaa24afa9a8338acbf0e981 Mon Sep 17 00:00:00 2001
+From: Harry Wang <harryjwang@gmail.com>
+Date: Tue, 20 Aug 2024 10:41:56 -0400
+Subject: [PATCH] fix bug
+
+---
+ calculations.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/calculations.py b/calculations.py
+index 2da4036..8818348 100644
+--- a/calculations.py
++++ b/calculations.py
+@@ -4,7 +4,7 @@ class Calculations:
+         self.b = b
+ 
+     def get_sum(self):
+-        return self.a + self.b + 1
++        return self.a + self.b
+ 
+     def get_difference(self):
+         return self.a - self.b
+-- 
+2.39.2
+
